@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ```
 python3 -m rl.plot_model --game lunar_lander --agent simple_double_dqn --config rl/cfgs/lunar_lander.json --model small2 --to_file model.png
 ```
-## if you only want to test the model (純跑模組不訓練)
+## if you only want to test the model (純跑模組不訓練，可看看模組成效)
 
 ```
 python3 -m rl.main --game lunar_lander --model small2 --config rl/cfgs/simple_no_train.json --agent simple_double_dqn --display yes
