@@ -7,7 +7,7 @@ Let's train an AI agent to play games from OpenAI Gym
 * Install python 3.9
 ```
 python3 -m virtualenv env
-source env/bin/activate
+source env/bin/activate ##可以直接用Ubuntu跑 那就不用打這行
 pip install -r requirements.txt
 ```
 
