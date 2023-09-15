@@ -23,6 +23,7 @@ source env/bin/activate
 ```
 
 ##下載需要的函式庫，基於相容性我有修改過，函式庫有衝突沒辦法從這裡解決的可以直接問 chat gpt
+在rl-master目錄下執行
 
 ```
 pip install -r requirements.txt
