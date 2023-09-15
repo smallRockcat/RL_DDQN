@@ -33,4 +33,6 @@ python3 -m rl.plot_model --game lunar_lander --agent simple_double_dqn --config 
 ```
 ## if you only want to test the model (run without train)
 
+```
 python3 -m rl.main --game lunar_lander --model small2 --config rl/cfgs/simple_no_train.json --agent simple_double_dqn --display yes
+```
