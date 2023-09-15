@@ -4,7 +4,9 @@ Let's train an AI agent to play games from OpenAI Gym
 照README走可以試用模組跑Lunar_Lander
 
 rl資料夾裡放著主要部件:
+
 agent 資料夾裡有 DQN(simple.py) 和 DOUBLE DQN(simple_double_dqn.py) 主體
+
 Hidden Layer 在 models 資料夾裡定義
 cfgs 調整 Learning rate 之類的參數
 
